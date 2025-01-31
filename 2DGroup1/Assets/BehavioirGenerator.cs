@@ -16,8 +16,8 @@ public class EntityBehavior : ScriptableObject
     public float HEALTH;
     public float MAX_ACCELERATION;
     public float ACCELERATION_RATE;
+    public int MAX_ENERGY;
 
     public Sprite ENTITY_SPRITE;
-
-
 }
+

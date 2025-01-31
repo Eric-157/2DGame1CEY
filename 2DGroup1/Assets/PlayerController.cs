@@ -42,15 +42,19 @@ public class PlayerController : MonoBehaviour
     void SetUpPlayer(){
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
-        saveData = gameObject.GetComponent<SaveData>();
+        saveData = GetComponent<SaveData>();
 
         speed = playerBehavior.SPEED;
         jumpStrength = playerBehavior.JUMP_STRENGTH;
         health = playerBehavior.HEALTH;
         spriteRenderer.sprite = playerBehavior.ENTITY_SPRITE;
-        acceleration = 1f;
+        acceleration = 0f;
         maxAcceleration = playerBehavior.MAX_ACCELERATION;
         accelerationRate = playerBehavior.ACCELERATION_RATE;
+        maxEnergy = playerBehavior.MAX_ENERGY;
+
+        saveData.LoadFromJson();
+        energy = saveData.playerData.playerEnergy;
     }
 
     bool IsGrounded(){
