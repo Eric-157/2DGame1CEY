@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         xAxis = Input.GetAxisRaw("Horizontal");
         Jump();
+        saveData.playerData.playerEnergy = energy;
     }
 
     void FixedUpdate(){

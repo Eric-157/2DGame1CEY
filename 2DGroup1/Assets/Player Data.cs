@@ -45,4 +45,7 @@ public class SaveData : MonoBehaviour
 public class PlayerData
 {
     public int playerEnergy;
+    public bool hasTape;
+    public bool hasBattery;
+    public bool hasSupplies;
 }
