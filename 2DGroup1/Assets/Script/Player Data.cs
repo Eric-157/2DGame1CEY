@@ -48,4 +48,5 @@ public class PlayerData
     public bool hasTape;
     public bool hasBattery;
     public bool hasSupplies;
+    public int doorLeft;
 }
