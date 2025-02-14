@@ -20,13 +20,10 @@ public class PlayerController : MonoBehaviour
     private float xAxis = 0;
     private float maxAcceleration;
     private float accelerationRate;
+    public int doorNumber;
+    public List<string> names = new List<string>();
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        SetUpPlayer();
-    }
 
     // Update is called once per frame
     void Update()
@@ -34,13 +31,15 @@ public class PlayerController : MonoBehaviour
         xAxis = Input.GetAxisRaw("Horizontal");
         Jump();
         saveData.playerData.playerEnergy = energy;
+        saveData.playerData.doorLeft = doorNumber;
+        saveData.playerData.objectNames = names;
     }
 
     void FixedUpdate(){
         rb.velocity = new Vector2(xAxis * speed + Accelerate(), rb.velocity.y);
     }
 
-    void SetUpPlayer(){
+    public void SetUpPlayer(){
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         saveData = GetComponent<SaveData>();
@@ -56,6 +55,8 @@ public class PlayerController : MonoBehaviour
 
         saveData.LoadFromJson();
         energy = saveData.playerData.playerEnergy;
+        doorNumber = saveData.playerData.doorLeft;
+        names = saveData.playerData.objectNames;
     }
 
     bool IsGrounded(){
@@ -69,7 +70,7 @@ public class PlayerController : MonoBehaviour
     }
 
     float Accelerate(){
-        if (xAxis != 0 && acceleration <= maxAcceleration){
+        if (xAxis != 0 && acceleration < maxAcceleration && acceleration > -maxAcceleration){
             if (xAxis > 0){
                 acceleration += accelerationRate;
             }
@@ -84,6 +85,9 @@ public class PlayerController : MonoBehaviour
             if (acceleration < 0 ){
                 acceleration += accelerationRate*2;
             }
+        }
+        if(acceleration < 0.05){
+            acceleration = 0;
         }
         return (speed * acceleration);
     }

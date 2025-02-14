@@ -16,11 +16,15 @@ public class GameManager : MonoBehaviour
     {
         GameObject[] playerObj = GameObject.FindGameObjectsWithTag("Player");
         playerController = playerObj[0].GetComponent<PlayerController>();
+        playerController.SetUpPlayer();
+
         GameObject[] levelTransitionsObj  = GameObject.FindGameObjectsWithTag("Door");
+        Debug.Log(levelTransitionsObj.Length);
         foreach (GameObject i in levelTransitionsObj){
             LevelController levelTransitions = i.GetComponent<LevelController>(); 
-            if (levelTransitions.doorNumber == playerController.saveData.playerData.doorLeft){
-                levelTransitions.SpawnLocation();
+            Debug.Log(levelTransitions.sceneNumber + " " + playerController.doorNumber);
+            if (levelTransitions.sceneNumber == playerController.doorNumber){
+                levelTransitions.SpawnLocation(playerController);
             }
         }
     }

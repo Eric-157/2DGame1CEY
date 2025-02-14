@@ -7,16 +7,17 @@ public class NPCControler : MonoBehaviour
 {
 
     public string dialogToShow;
-    public TextMeshProUGUI dialog;
-    public Canvas canvas;
+    private TextMeshProUGUI dialog;
     private bool showWords = false;
+    private bool isRunning = false;
 
     // Start is called before the first frame update
     void Awake()
     {
-        Canvas canvas = FindAnyObjectByType<Canvas>();
-        dialog.transform.parent = canvas.transform;
-        dialog.text = "";
+        GameObject[] dialogObj = GameObject.FindGameObjectsWithTag("Talking");
+        dialog = dialogObj[0].GetComponent<TextMeshProUGUI>();
+        dialog.text = " ";
+
     }
 
     // Update is called once per frame
@@ -26,6 +27,7 @@ public class NPCControler : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision){
+        StopAllCoroutines();
         showWords = true;
         if(collision.tag == "Player"){
             dialog.text = "";
@@ -34,21 +36,25 @@ public class NPCControler : MonoBehaviour
     }
 
     void OnTriggerExit2D(Collider2D collision){
-        showWords = false;
-        if(collision.tag == "Player"){
-            dialog.text = "";
-        }
+        dialog.text = "";
     }
 
      private IEnumerator TypeWriter(string text)
     {
+        isRunning = true;
         foreach(char character in text.ToCharArray())
         {
             if(showWords){
                 dialog.text += character;
-                yield return new WaitForSeconds(0.2f);
+                yield return new WaitForSeconds(0.02f);
+            }
+            else{
+                Debug.Log("stop talking");
+                yield break;
             }
         }
+        showWords = false;
+        isRunning = false;
     }
 
 }

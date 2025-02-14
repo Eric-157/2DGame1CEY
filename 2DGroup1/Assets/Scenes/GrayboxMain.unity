@@ -719,8 +719,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1854067168}
-  canvas: {fileID: 0}
 --- !u!212 &70130801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -819,8 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3925f83b6c3c091478dd1a5815b122bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GrayboxMedbay
-  doorNumber: 6
+  sceneNumber: 4
   playerController: {fileID: 0}
 --- !u!61 &98410487
 BoxCollider2D:
@@ -858,7 +855,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -908,8 +905,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a1d71091c68adb648b609747d321fa0b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1012,8 +1009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1629005110}
-  canvas: {fileID: 0}
 --- !u!212 &111819534
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1500,8 +1495,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 745659524}
-  canvas: {fileID: 0}
 --- !u!212 &172825962
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1911,8 +1904,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1936845404}
-  canvas: {fileID: 0}
 --- !u!212 &226739091
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2601,8 +2592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3925f83b6c3c091478dd1a5815b122bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GrayboxSpawn
-  doorNumber: 5
+  sceneNumber: 2
   playerController: {fileID: 0}
 --- !u!61 &300180919
 BoxCollider2D:
@@ -2640,7 +2630,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2690,8 +2680,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a1d71091c68adb648b609747d321fa0b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2924,8 +2914,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 937424898}
-  canvas: {fileID: 0}
 --- !u!212 &338772117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3104,8 +3092,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1298719969}
-  canvas: {fileID: 0}
 --- !u!212 &357360325
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3250,8 +3236,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: Charged!
-  dialog: {fileID: 0}
-  canvas: {fileID: 0}
 --- !u!212 &358235305
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3350,8 +3334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3925f83b6c3c091478dd1a5815b122bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GrayboxMHall
-  doorNumber: 3
+  sceneNumber: 5
   playerController: {fileID: 0}
 --- !u!61 &379196833
 BoxCollider2D:
@@ -3389,7 +3372,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3439,8 +3422,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a1d71091c68adb648b609747d321fa0b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4219,7 +4202,7 @@ Transform:
   m_GameObject: {fileID: 470602626}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -55.01821, y: 12.24, z: -0.040898487}
+  m_LocalPosition: {x: -55.65, y: 12.24, z: -0.040898487}
   m_LocalScale: {x: 1.782789, y: 0.5059001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4532,8 +4515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 66328643}
-  canvas: {fileID: 0}
 --- !u!212 &540846444
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4809,8 +4790,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1953196447}
-  canvas: {fileID: 0}
 --- !u!212 &570946724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5430,8 +5409,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1912476016}
-  canvas: {fileID: 0}
 --- !u!212 &627288984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5577,8 +5554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1828524489}
-  canvas: {fileID: 0}
 --- !u!212 &655130214
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6276,98 +6251,6 @@ Transform:
   - {fileID: 1320387831}
   m_Father: {fileID: 1882897579}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &755440066
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 755440069}
-  - component: {fileID: 755440068}
-  - component: {fileID: 755440067}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &755440067
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755440066}
-  m_Enabled: 1
---- !u!20 &755440068
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755440066}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &755440069
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755440066}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0528613, y: -1.7692201, z: -10}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 902838898}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &768476443
 GameObject:
   m_ObjectHideFlags: 0
@@ -6461,8 +6344,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1026264732}
-  canvas: {fileID: 0}
 --- !u!212 &768476447
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7258,8 +7139,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1971093193}
-  canvas: {fileID: 0}
 --- !u!212 &870710783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7656,11 +7535,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &902838898 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4716042906196592920, guid: d762420aae2b9b94a8cad1a56c9902d2, type: 3}
-  m_PrefabInstance: {fileID: 1775366402}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &917706908
 GameObject:
   m_ObjectHideFlags: 0
@@ -8684,8 +8558,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1594672531}
-  canvas: {fileID: 0}
 --- !u!212 &1021826864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9419,7 +9291,7 @@ Transform:
   m_GameObject: {fileID: 1162047791}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -55.0213, y: 14.96, z: -0.040898487}
+  m_LocalPosition: {x: -56.03, y: 14.96, z: -0.040898487}
   m_LocalScale: {x: 1.782789, y: 0.5059001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9615,8 +9487,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1321881938}
-  canvas: {fileID: 0}
 --- !u!212 &1170800020
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9858,8 +9728,8 @@ Transform:
   m_GameObject: {fileID: 1230977015}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.834908, y: 13.52, z: -0.040898487}
-  m_LocalScale: {x: 1.782789, y: 0.5059001, z: 1}
+  m_LocalPosition: {x: -52.54, y: 13.52, z: -0.040898487}
+  m_LocalScale: {x: 1.1766407, y: 0.5059001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 45944568}
@@ -10054,8 +9924,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1613498212}
-  canvas: {fileID: 0}
 --- !u!212 &1247144951
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10725,8 +10593,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: End the Game?
-  dialog: {fileID: 0}
-  canvas: {fileID: 0}
 --- !u!1 &1321641138
 GameObject:
   m_ObjectHideFlags: 0
@@ -10820,8 +10686,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1530257845}
-  canvas: {fileID: 0}
 --- !u!212 &1321641142
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11101,8 +10965,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1430822397}
-  canvas: {fileID: 0}
 --- !u!212 &1322217186
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11642,8 +11504,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1853738819}
-  canvas: {fileID: 0}
 --- !u!212 &1358849635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11789,8 +11649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1251470527}
-  canvas: {fileID: 0}
 --- !u!212 &1401622401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12681,8 +12539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3925f83b6c3c091478dd1a5815b122bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GrayboxSupply
-  doorNumber: 7
+  sceneNumber: 6
   playerController: {fileID: 0}
 --- !u!61 &1538832414
 BoxCollider2D:
@@ -12720,7 +12577,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12770,8 +12627,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a1d71091c68adb648b609747d321fa0b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13329,8 +13186,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1336658956}
-  canvas: {fileID: 0}
 --- !u!212 &1611199885
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13610,8 +13465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 382622304}
-  canvas: {fileID: 0}
 --- !u!212 &1614903623
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13975,8 +13828,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1855315069}
-  canvas: {fileID: 0}
 --- !u!212 &1640068460
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14122,8 +13973,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 117654097}
-  canvas: {fileID: 0}
 --- !u!212 &1686582520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14269,8 +14118,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 467648695}
-  canvas: {fileID: 0}
 --- !u!212 &1721852369
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14637,10 +14484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4716042906196592920, guid: d762420aae2b9b94a8cad1a56c9902d2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 755440069}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d762420aae2b9b94a8cad1a56c9902d2, type: 3}
 --- !u!1 &1797054778
@@ -14866,8 +14710,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1273229776}
-  canvas: {fileID: 0}
 --- !u!212 &1804351127
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15013,8 +14855,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 984366568}
-  canvas: {fileID: 0}
 --- !u!212 &1811148657
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15424,8 +15264,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 1439647686}
-  canvas: {fileID: 0}
 --- !u!212 &1830826431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17586,8 +17424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 222502302}
-  canvas: {fileID: 0}
 --- !u!212 &2058830153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17835,8 +17671,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 688937864}
-  canvas: {fileID: 0}
 --- !u!212 &2116815438
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17982,8 +17816,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogToShow: name
-  dialog: {fileID: 2003410054}
-  canvas: {fileID: 0}
 --- !u!212 &2117143886
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18212,8 +18044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3925f83b6c3c091478dd1a5815b122bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GrayboxGarden
-  doorNumber: 4
+  sceneNumber: 7
   playerController: {fileID: 0}
 --- !u!61 &2136021641
 BoxCollider2D:
@@ -18251,7 +18082,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -18301,8 +18132,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a1d71091c68adb648b609747d321fa0b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

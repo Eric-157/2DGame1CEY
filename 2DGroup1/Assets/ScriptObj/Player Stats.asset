@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 069cce92c4b54d24185cbc71f0c55164, type: 3}
   m_Name: Player Stats
   m_EditorClassIdentifier: 
-  SPEED: 3
+  SPEED: 5
   JUMP_STRENGTH: 7
   HEALTH: 10
-  MAX_ACCELERATION: 1
+  MAX_ACCELERATION: 0.1
   ACCELERATION_RATE: 0.01
-  MAX_ENERGY: 0
-  ENTITY_SPRITE: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  MAX_ENERGY: 10
+  ENTITY_SPRITE: {fileID: 21300000, guid: e39dd1302a03b86459223de94a83c51b, type: 3}

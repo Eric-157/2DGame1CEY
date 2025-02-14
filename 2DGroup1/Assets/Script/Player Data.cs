@@ -17,7 +17,7 @@ public class SaveData : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.P))
         {
             SaveToJson();
         }
@@ -49,4 +49,5 @@ public class PlayerData
     public bool hasBattery;
     public bool hasSupplies;
     public int doorLeft;
+    public List<string> objectNames = new List<string>();
 }

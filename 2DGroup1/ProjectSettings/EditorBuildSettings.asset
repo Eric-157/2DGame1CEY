@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GrayboxSupply.unity
     guid: 1933ce244a6048646ba961701593e9e4
+  - enabled: 1
+    path: Assets/Scenes/GrayboxGarden.unity
+    guid: 7b92b6bad62f4704a8dd3be192c1acf3
   m_configObjects: {}
