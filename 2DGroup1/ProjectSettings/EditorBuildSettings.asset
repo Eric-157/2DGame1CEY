@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Start.unity
+    guid: 364322846eba33c45bd9f6ba02a3d17b
   - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: f636f1a6caa3c8d48b205ccc2ea4210a
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GrayboxGarden.unity
     guid: 7b92b6bad62f4704a8dd3be192c1acf3
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: d52cd2ed12b97064d94ab5250a6e8215
   m_configObjects: {}

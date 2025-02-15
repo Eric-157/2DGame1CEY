@@ -170,6 +170,7 @@ MonoBehaviour:
   energy: 0
   maxEnergy: 0
   doorNumber: 0
+  names: []
 --- !u!61 &4041968090131903029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -233,6 +234,7 @@ MonoBehaviour:
     hasBattery: 0
     hasSupplies: 0
     doorLeft: 0
+    objectNames: []
 --- !u!1 &8003327649992894331
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,7 +278,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
