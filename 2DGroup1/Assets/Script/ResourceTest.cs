@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ResourceTest : MonoBehaviour
 {
 
     public int energyCost;
+    private bool canBeUsed;
 
     public PlayerController playerController;
 
@@ -20,13 +22,21 @@ public class ResourceTest : MonoBehaviour
         }
     }
 
-    void OnTriggerStay2D(Collider2D collision){
-        Debug.Log("shit is working");
-        if(Input.GetKeyDown(KeyCode.E)){
+    void OnTriggerEnter2D(Collider2D collision){
+        canBeUsed = true;
+    }
+
+    void OnTriggerExit2D(Collider2D collision){
+        canBeUsed = false;
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.E) && canBeUsed){
             playerController.energy -= energyCost;
             playerController.saveData.playerData.objectNames.Add(gameObject.name);
             Destroy(gameObject);
         }
     }
-    
+
 }

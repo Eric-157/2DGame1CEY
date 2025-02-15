@@ -5,7 +5,7 @@ using System.IO;
 
 public class SaveData : MonoBehaviour
 {
-    public PlayerData playerData = new PlayerData();
+    public PlayerData playerData;
 
     private void Awake()
     {

@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
 
     private float speed;
     private float jumpStrength;
-    private float health;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
     private float xAxis = 0;
@@ -46,7 +45,6 @@ public class PlayerController : MonoBehaviour
 
         speed = playerBehavior.SPEED;
         jumpStrength = playerBehavior.JUMP_STRENGTH;
-        health = playerBehavior.HEALTH;
         spriteRenderer.sprite = playerBehavior.ENTITY_SPRITE;
         acceleration = 0f;
         maxAcceleration = playerBehavior.MAX_ACCELERATION;

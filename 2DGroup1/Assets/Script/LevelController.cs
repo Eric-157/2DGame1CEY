@@ -9,6 +9,7 @@ public class LevelController : MonoBehaviour
     public int sceneNumber;
     public PlayerController playerController;
     private GameObject[] playerObj;
+    private bool canBeUsed = false;
 
 
     void Awake()
@@ -18,8 +19,20 @@ public class LevelController : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision){
-        playerController.saveData.SaveToJson();
-        SceneManager.LoadScene(sceneNumber);
+        canBeUsed = true;
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        canBeUsed = false;
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && canBeUsed){
+            playerController.saveData.SaveToJson();
+            SceneManager.LoadScene(sceneNumber);
+        }
     }
 
 

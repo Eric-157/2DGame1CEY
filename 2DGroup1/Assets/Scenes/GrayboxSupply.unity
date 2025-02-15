@@ -1041,6 +1041,7 @@ GameObject:
   - component: {fileID: 906963812}
   - component: {fileID: 906963811}
   - component: {fileID: 906963810}
+  - component: {fileID: 906963814}
   m_Layer: 0
   m_Name: Chargingport (3)
   m_TagString: Untagged
@@ -1173,6 +1174,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906963814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906963809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a22abbc411a39c46882ba09e6e176f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyCost: 0
+  playerController: {fileID: 0}
 --- !u!1 &1050410076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,6 +1638,7 @@ GameObject:
   - component: {fileID: 1549097811}
   - component: {fileID: 1549097810}
   - component: {fileID: 1549097809}
+  - component: {fileID: 1549097813}
   m_Layer: 0
   m_Name: Chargingport (1)
   m_TagString: Untagged
@@ -1755,6 +1771,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1549097813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549097808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a22abbc411a39c46882ba09e6e176f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyCost: 0
+  playerController: {fileID: 0}
 --- !u!1001 &1613040594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2322,6 +2352,7 @@ GameObject:
   - component: {fileID: 1930093535}
   - component: {fileID: 1930093534}
   - component: {fileID: 1930093533}
+  - component: {fileID: 1930093537}
   m_Layer: 0
   m_Name: Chargingport (2)
   m_TagString: Untagged
@@ -2454,6 +2485,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1930093537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930093532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a22abbc411a39c46882ba09e6e176f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyCost: 0
+  playerController: {fileID: 0}
 --- !u!1 &1977532399
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,6 +2702,7 @@ GameObject:
   - component: {fileID: 2106385665}
   - component: {fileID: 2106385664}
   - component: {fileID: 2106385663}
+  - component: {fileID: 2106385667}
   m_Layer: 0
   m_Name: Chargingport
   m_TagString: Untagged
@@ -2789,6 +2835,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2106385667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106385662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a22abbc411a39c46882ba09e6e176f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyCost: 10
+  playerController: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

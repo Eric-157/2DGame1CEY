@@ -1670,7 +1670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a22abbc411a39c46882ba09e6e176f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energyCost: 0
+  energyCost: 10
   playerController: {fileID: 0}
 --- !u!1 &981243492
 GameObject:
